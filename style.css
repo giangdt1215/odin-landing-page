@@ -145,3 +145,44 @@ header {
     margin: 0;
     padding-right: 60px;
 }
+
+/* action */
+.action {
+    background-color: #F9FAF8;
+    padding: 80px 300px;
+}
+
+.action .content{
+    height: 150px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+}
+
+.action .desc{
+    color: #F9FAF8;
+}
+
+.action h2, .action p {
+    margin: 0;
+}
+
+.action p{
+    font-weight: 300;
+}
+
+.action .content button{
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 5px 30px;
+    border-radius: 8px;
+    font-size: 18px;
+    border: 2px solid #F9FAF8 ;
+}
+
+.action button:hover{
+    cursor: pointer;
+}
