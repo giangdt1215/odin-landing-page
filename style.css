@@ -186,3 +186,12 @@ header {
 .action button:hover{
     cursor: pointer;
 }
+
+/* footer */
+footer{
+    text-align: center;
+    padding: 30px 0;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-weight: 300;
+}
